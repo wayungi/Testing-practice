@@ -1,0 +1,24 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "writing tests using jest and the AAA pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayungi/Testing-practice.git"
+  },
+  "keywords": [
+    "jest",
+    "AAA",
+    "pattern"
+  ],
+  "author": "Francis Wayungi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wayungi/Testing-practice/issues"
+  },
+  "homepage": "https://github.com/wayungi/Testing-practice#readme"
+}
