@@ -1,1 +1,1 @@
-const stringLength = (string) => string.length;
+export default stringLength = (string) => string.length;
