@@ -11,3 +11,13 @@ test('Empty string', () => {
 test('Should return "atesinna"', () => {
   expect(reverseString('anniseta')).toEqual('atesinna');
 });
+
+describe('my beverage', () => {
+  test('is delicious', () => {
+    expect(myBeverage.delicious).toBeTruthy();
+  });
+
+  test('is not sour', () => {
+    expect(myBeverage.sour).toBeFalsy();
+  });
+});
