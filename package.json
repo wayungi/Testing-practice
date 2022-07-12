@@ -1,0 +1,33 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "writing tests using jest and the AAA pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest  --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayungi/Testing-practice.git"
+  },
+  "keywords": [
+    "jest",
+    "AAA",
+    "pattern"
+  ],
+  "author": "Francis Wayungi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wayungi/Testing-practice/issues"
+  },
+  "homepage": "https://github.com/wayungi/Testing-practice#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.0",
+    "jest": "^28.1.2"
+  }
+}
