@@ -8,4 +8,6 @@ const stringLength = (string) => {
 
 const reverseString = (string) => string.split('').reverse().join('');
 
-export { stringLength, reverseString };
+const capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
+
+export { stringLength, reverseString, capitalize };
